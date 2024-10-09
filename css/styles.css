@@ -29,6 +29,7 @@ html{
 img{
     display: block;
     max-width: 57px;
+    align-self: flex-end;
 }
 
 a{
@@ -46,10 +47,118 @@ ul{
 body{
     font-family: "Poppins";
     margin: 32px;
-    color: #4D4F62;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.subtitle{
+@media screen and (width>768px){
+    body{
+        margin: 165px;
+        display: flex;
+
+    }
+}
+
+header{
+    margin-top: 85px;
+    margin-bottom: 76px;
+    width: 311px;
+    display: column;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+@media screen and (width>768px){
+    header{
+        margin-top: 80px;
+        margin-bottom: 64px;
+        width: 540px;
+    }
+}
+
+p{
     font-weight: 400;
-
+    color: rgba(77, 79, 98, 0.5);
 }
+
+h2{
+    font-size: 24px;
+}
+
+@media screen and (width>768px){
+    h2{
+        font-size: 36px;
+    }
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+@media screen and (width>768px){
+    .content{
+        margin: 165px;
+        width: 1110px;
+    }
+}
+
+h3{ 
+    font-weight: 20px;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+.title1{
+    font-weight: 200;
+    margin-bottom: 1px;
+}
+
+
+.title2{
+    margin-top: 1px;
+}
+.subtitle{
+    font-size: 15px;
+}
+
+.text{
+    font-size: 13px;
+    line-height: 23px;
+    margin-top: 1px;
+}
+
+.card{
+    width: 331px;
+    height: 222px;
+    background-color: #FFF;
+    padding: 28px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.card1{
+    border-top: 5px solid #44D3D2;
+}
+
+.card2{
+    border-top: 5px solid #EA5454;
+}
+
+.card3{
+    border-top: 5px solid #FCAE4A;
+}
+
+.card4{
+    border-top: 5px solid #549EF2;
+}
+
