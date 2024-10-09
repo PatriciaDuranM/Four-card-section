@@ -1,3 +1,23 @@
+/*FUENTES
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  */
+
 *{
     box-sizing: border-box;
 }
@@ -8,7 +28,7 @@ html{
 
 img{
     display: block;
-    max-width: 100%;
+    max-width: 57px;
 }
 
 a{
@@ -24,6 +44,12 @@ ul{
 }
 
 body{
-    font-family: sans-serif;
-    margin: 0;
+    font-family: "Poppins";
+    margin: 32px;
+    color: #4D4F62;
+}
+
+.subtitle{
+    font-weight: 400;
+
 }
